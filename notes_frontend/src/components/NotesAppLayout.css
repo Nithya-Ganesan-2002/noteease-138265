@@ -1,0 +1,14 @@
+.notes-app-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: var(--color-f9f3e5, #f9f3e5);
+  min-height: 100vh;
+  min-width: 0;
+  width: 100%;
+}
+@media (max-width:1100px) {
+  .notes-app-layout {
+    flex-direction: column;
+  }
+}

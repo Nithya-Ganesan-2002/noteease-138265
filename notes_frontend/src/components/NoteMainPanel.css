@@ -1,0 +1,101 @@
+.note-main-panel {
+  flex: 1;
+  background: var(--color-fff0ee, #fff0ee);
+  min-height: 100vh;
+  padding: 52px 40px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.note-title-input {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  border: none;
+  border-bottom: 3px solid var(--color-33322e, #33322e);
+  background: none;
+  padding: 6px 0;
+  outline: none;
+  font-family: var(--font-roboto, Arial, sans-serif);
+  color: var(--color-33322e, #33322e);
+}
+
+.note-content-input {
+  flex: 1;
+  font-size: 1.15rem;
+  font-family: var(--font-roboto, Arial, sans-serif);
+  border: none;
+  background: none;
+  color: var(--color-33322e, #33322e);
+  padding: 0;
+  margin-bottom: 20px;
+  outline: none;
+  resize: vertical;
+}
+
+.note-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.note-delete-btn {
+  background: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 24px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.note-delete-btn:hover {
+  background: #c62828;
+}
+.note-saved-label {
+  opacity: 0.6;
+  font-size: 0.95em;
+}
+
+.main-panel-placeholder, .main-panel-empty {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-33322e, #33322e);
+  background: var(--color-ffffff, #fff);
+}
+
+.cover-title {
+  font-family: var(--font-roboto, Arial, sans-serif);
+  font-size: 6rem;
+  font-weight: 900;
+  letter-spacing: -4px;
+  color: var(--color-33322e, #33322e);
+}
+
+.cover-subtitle {
+  margin-top: 34px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-33322e, #33322e);
+  text-align: center;
+  letter-spacing: -1.2px;
+}
+
+.cover-craftedby {
+  margin-top: 48px;
+  font-size: 1.2rem;
+  color: var(--color-878787, #878787);
+}
+
+.cover-author {
+  font-weight: 900;
+  color: var(--color-33322e, #33322e);
+  margin-left: 8px;
+}
